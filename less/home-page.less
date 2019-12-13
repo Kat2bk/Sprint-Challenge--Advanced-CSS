@@ -1,4 +1,5 @@
 // Home Content
+@phone: ~'(max-width: 500px)';
 
 .home {
 
@@ -72,4 +73,28 @@
       }
     }
   }
+  .btn {
+   .buttonMixin(@btn-color, white);
+  }
 }// home
+
+@media @phone {
+  .sky, .launch {
+    display: none;
+  }
+  img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  .walk {
+    display: flex;
+    flex-direction: column-reverse;
+    h3 {
+      padding-top: 10%;
+    }
+    .btn {
+      padding: 5% 50% 5% 50%;
+    }
+  }
+}
