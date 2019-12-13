@@ -189,6 +189,11 @@ p {
   padding: 0 1% 0 1%;
   font-size: 1.5rem;
 }
+.displayFlex {
+  display: flex;
+  justify-content: cneter;
+  align-items: center;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -198,6 +203,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .footer {
+    justify-content: center;
+    display: flex;
+    justify-content: cneter;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 20px 0;
+    margin-top: -5%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -291,13 +308,15 @@ footer {
     height: auto;
   }
 }
-.walk {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.walk h3 {
-  padding-top: 10%;
-}
-.walk .btn {
-  padding: 5% 50% 5% 50%;
+@media (max-width: 500px) {
+  .walk {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .walk h3 {
+    padding-top: 10%;
+  }
+  .walk .btn {
+    padding: 5% 50% 5% 50%;
+  }
 }

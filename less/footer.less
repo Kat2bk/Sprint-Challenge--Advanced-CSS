@@ -1,4 +1,11 @@
 // Footer Styles
+@phone: ~'max-width: 500px';
+.displayFlex {
+  display: flex;
+  justify-content: cneter;
+  align-items: center;
+}
+
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -8,4 +15,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media @phone {
+  .footer {
+    .displayFlex();
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 20px 0;
+    margin-top: -5%;
+  }
 }
