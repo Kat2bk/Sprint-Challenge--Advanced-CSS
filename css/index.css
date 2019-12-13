@@ -241,6 +241,11 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 90%;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -249,6 +254,13 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
 }
 .home .btn {
   background-color: #050561;
@@ -270,19 +282,22 @@ footer {
   .launch {
     display: none;
   }
+  .blast {
+    width: 85% !important;
+  }
   img {
     margin: 0 auto;
-    width: 100%;
+    width: 100% !important;
     height: auto;
   }
-  .walk {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .walk h3 {
-    padding-top: 10%;
-  }
-  .walk .btn {
-    padding: 5% 50% 5% 50%;
-  }
+}
+.walk {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.walk h3 {
+  padding-top: 10%;
+}
+.walk .btn {
+  padding: 5% 50% 5% 50%;
 }
