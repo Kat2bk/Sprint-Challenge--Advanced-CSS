@@ -320,3 +320,8 @@ footer {
     padding: 5% 50% 5% 50%;
   }
 }
+@media (max-width: 500px) {
+  .visit-planets {
+    margin-bottom: -10%;
+  }
+}
