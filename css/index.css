@@ -299,9 +299,6 @@ footer {
   .launch {
     display: none;
   }
-  .blast {
-    width: 85% !important;
-  }
   img {
     margin: 0 auto;
     width: 100% !important;
@@ -317,7 +314,8 @@ footer {
     padding-top: 10%;
   }
   .walk .btn {
-    padding: 5% 50% 5% 50%;
+    padding: 5% 30% 5% 30%;
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
