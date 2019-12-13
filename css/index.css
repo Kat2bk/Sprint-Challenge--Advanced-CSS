@@ -291,13 +291,15 @@ footer {
     height: auto;
   }
 }
-.walk {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.walk h3 {
-  padding-top: 10%;
-}
-.walk .btn {
-  padding: 5% 50% 5% 50%;
+@media (max-width: 500px) {
+  .walk {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .walk h3 {
+    padding-top: 10%;
+  }
+  .walk .btn {
+    padding: 5% 50% 5% 50%;
+  }
 }
