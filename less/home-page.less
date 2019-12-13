@@ -61,6 +61,11 @@
       .btn {
       }
     }
+    @media @phone {
+      .walk-text {
+        width: 90%;
+      }
+    }
 
     .walk-img {
       width: 46%;
@@ -70,6 +75,13 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+    @media @phone {
+      .walk-img {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
       }
     }
   }
@@ -82,11 +94,16 @@
   .sky, .launch {
     display: none;
   }
+  .blast {
+    width: 85% !important;
+  }
+
   img {
     margin: 0 auto;
-    width: 100%;
+    width: 100% !important;
     height: auto;
   }
+}
   .walk {
     display: flex;
     flex-direction: column-reverse;
@@ -97,4 +114,3 @@
       padding: 5% 50% 5% 50%;
     }
   }
-}
